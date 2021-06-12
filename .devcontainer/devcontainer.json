@@ -1,0 +1,16 @@
+{
+  "name": "line-to-discord",
+  "extensions": [
+    // General
+    "editorconfig.editorconfig",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    // Deno
+    "denoland.vscode-deno"
+  ],
+  "settings": {},
+  // Docker
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app"
+}
